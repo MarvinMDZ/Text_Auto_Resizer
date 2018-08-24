@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Example Text Auto Resize Script</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Lato:700');
+		.container{
+			display: block;
+			overflow: hidden;
+			background: #f3f3f3;
+			margin-top: 20px;
+		}
+		.ex1{
+			width: 300px;
+			height: 100px;
+		}
+		.ex2{
+			width: 300px;
+			height: 200px;
+		}
+		.ex3{
+			width: 400px;
+			height: 200px;
+		}
+		p{
+			font-family: 'Lato', sans-serif;
+			font-weight: 700;
+			padding: 5px;
+			margin: 0;
+			font-size: 32px;
+		}
+	</style>
+
+	
+</head>
+<body>
+	<div class="container ex1">
+		<p class="resizable">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	</div>
+	<div class="container ex2">
+		<p class="resizable">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In est leo, auctor eu neque non, pulvinar aliquam est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In est leo, auctor eu neque non, pulvinar aliquam est.</p>
+	</div>
+	<div class="container ex3">
+		<p class="resizable">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In est leo, auctor eu neque non, pulvinar aliquam est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In est leo, auctor eu neque non, pulvinar aliquam est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In est leo, auctor eu neque non, pulvinar aliquam est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In est leo, auctor eu neque non, pulvinar aliquam est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In est leo, auctor eu neque non, pulvinar aliquam est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In est leo, auctor eu neque non, pulvinar aliquam est.</p>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
